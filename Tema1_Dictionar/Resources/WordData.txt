@@ -1,0 +1,24 @@
+﻿Stilou
+Instrumente de scris
+Instrument de scris prevăzut cu un rezervor din care cerneala sau pasta ajunge automat la vârful peniței, în timpul scrierii.
+stilou.jpg
+Laptop
+Dispozitiv electronic
+Este un calculator personal portabil, mobil, ușor și îndeajuns de mic pentru a putea fi ținut pe genunchi în timpul utilizării si integrează cele mai multe dintre componentele tipice a unui calculator de birou - un ecran, o tastatură, un dispozitiv de indicare (touchpad), difuzoare, precum și o baterie, toate într-o singură unitate.
+laptop.jpg
+Mouse
+Dispozitiv electronic
+Dispozitiv acționat manual, conectat la calculator, a cărui deplasare pe o suprafață antrenează deplasarea cursorului pe ecranul monitorului.
+mouse.jpg
+Pahar
+Vase
+Vas de sticlă, de metal, de material plastic etc., de diferite forme ori mărimi, din care se bea apă sau alte lichide.
+pahar.jpg
+Dinozaur
+Animale
+Reptilă fosilă urişă din ordinul dinozaurilor.
+dinozaur.jpg
+Pisica
+Animale
+Mamifer domestic carnivor din familia felidelor, cu corpul suplu, acoperit cu blană deasă și moale de diferite culori, cu capul rotund, cu botul foarte scurt, cu maxilarele puternice și cu ghearele retractile și ascuțite
+pisica.jpg

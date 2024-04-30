@@ -1,0 +1,49 @@
+﻿<Window x:Class="Tema1_Dictionar.Windows.SearchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema1_Dictionar.Windows"
+        mc:Ignorable="d"
+        Title="SearchWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="LightGoldenrodYellow">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="276" Height="396" >
+            <ComboBox x:Name="cmbSearch" Width="250" Margin="0 10 0 10"
+              IsEditable="True"
+              Text="{Binding Path=content, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+              SelectionChanged="CmbSearch_SelectionChanged"
+              TextBoxBase.TextChanged="CmbSearch_TextChanged"
+              />
+
+            <Border BorderBrush="Black" BorderThickness="2" CornerRadius="5" Width="215" HorizontalAlignment="Center">
+                <Image x:Name="imageControl" Height="144" Margin="2,0,2,0" />
+            </Border>
+
+            <TextBlock FontFamily = "Berlin Sans FB" FontSize = "17" Height="30">
+                <Run Text="Categorie:" FontWeight="Bold" />
+                <Run Text="{Binding category}" />
+            </TextBlock>
+
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Height="80">
+                <TextBlock FontFamily = "Berlin Sans FB" FontSize = "17" Width="276" TextWrapping="WrapWithOverflow" Height="90">
+                    <Run Text="Descriere: " FontWeight="Bold" />
+                    <Run Text="{Binding description}" />
+                </TextBlock>
+            </ScrollViewer>
+
+            <Button x:Name="BackButton"
+                Click="BackButton_Click"
+                Foreground="Black"
+                Cursor="Hand"
+                Style="{StaticResource RoundButtonTemplate}"
+                BorderBrush="Black"
+                Background="DarkKhaki"
+                Width="90"
+                Margin="0,20,0,0">
+                Back
+            </Button>
+        </StackPanel>
+
+    </Grid>
+</Window>
